@@ -1,0 +1,232 @@
+
+  .my-custom-div {
+    background-color: transparent !important; /* !important eklenmesi mevcut diğer kuralları geçersiz kılar */
+}
+.a_text{
+    text-decoration: none;
+    color: black;
+}
+.bg_dark{
+    background-color: black !important;
+}
+/* giriş */
+.giris{
+    background-color: #165153 !important;;
+}
+/* navbar yazı boyutu */
+.nav_yazi{
+    font-size: 18px;
+
+}
+.nav_yazi a{
+    margin-left: 10px;
+    
+}
+
+
+/* arka plan fotosu ve kodları */
+
+#showcase { 
+    background: 
+    linear-gradient( rgba(0, 0, 0, 0.2),rgba(66, 64, 63, 0.2)),
+    url('aa.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.text-body{
+    color: white !important;
+}
+.text-body h2{
+    font-size: 30px;
+}
+.text-body h1{
+    font-size: 100px;
+}
+
+.sari{
+    color: #fcb900!important;
+}
+
+/* arka plan buton kodları */
+
+.btnsari{
+    background-color: #fcb900!important;
+}
+.btn-renk{
+    background-color: rgb(228, 228, 228);
+    color: #ffb74d;
+    border: 1px solid rgb(232, 223, 223);
+    width: 7rem;
+}
+/* iletişim butonu */
+.btn-iletisim-renk{
+    background-color: #ffb74d;
+    color: black;
+    border-radius: 0;
+}
+.btn-iletisim-renk:hover{
+    background-color: #165153;
+    color: #fff;
+    border-radius: 0;
+}
+
+.genislik{
+    width: 40rem;
+}
+.proje-renk{
+    color: #717171;
+    font-size: 1.1rem;
+}
+.boyut{
+    width: 150px;
+    height: 60px;
+    border-radius: 0;
+}
+
+/* cerceve kaldırma */
+.cerceve{
+    border: none;
+}
+
+
+
+/* istatistikler kod bloğu */
+.sayi_renk{
+    color: #165153;
+    font-size: 2.8rem;
+    font-weight: bold;
+    
+}
+.yazi_renk{
+    color: #717171;
+    font-size: 1rem;
+font-weight: 500;}
+
+
+/* faliyet bloğu kodları */
+
+.faliyet_bg{
+    background-color: #165153;
+    color: #fff;
+}
+
+.faliyet_yazi{
+    color: #ffb74d;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.faliyet_border{
+    border-radius: 0%;
+}
+.faliyet_kayan{
+    
+    text-decoration: none;
+    transition: .1s;
+   
+}
+.faliyet_kayan:hover{
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    transition: .1s;
+   
+}
+
+.faliyet_card_trans{
+    transition: all .5s;
+    
+
+}
+.faliyet_card_trans:hover{
+    transform: translateY(-1rem);
+    box-shadow: rgba(252, 185, 0) 0px 10px;
+
+}
+
+
+
+/* projelerimiz kısmı kodları */
+.konteynır{}
+
+.proje_buyuk{
+   border-radius: 0px;
+}
+.boyut{
+    width: 300px;
+    height: 100px;
+}
+
+.bg_footer_renk{
+    background-color: #999 !important;
+}
+.fontsa{
+    font-size: 1.1rem;
+}
+.card-img-top {
+    width: 100%; /* Fotoğrafın genişliği kartın genişliği kadar olur */
+    height: 50vh; /* Fotoğrafın yüksekliği ekranın %30'u kadar olur */
+    object-fit: cover; /* Fotoğrafın içeriği kartın boyutlarına sığdırılır */
+}
+
+
+/* ************************************ */
+
+/* Projeler Sayfası Kodları */
+
+
+/* **************************************** */
+
+#showcasee { 
+    background: 
+    linear-gradient( rgba(0, 0, 0, 0.2),rgba(66, 64, 63, 0.2)),
+    url('kapakFotografı/aa.webp');
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+
+.proje_turuncu{
+    color: #ffb74d;
+    font-size: large;
+}
+.card_cerceve{
+    border-radius: 0%;
+}
+
+.card_shadow{
+    transition: all .3s;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.card_shadow:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.cizgi{
+    border-bottom: 3px solid #165153;
+    width: 4rem;
+}
+
+
+
+
+
+/* ************************************ */
+
+/* Hakkımızda Sayfası Kodları */
+
+
+/* **************************************** */
+
+.kont{
+    width: 68rem;
+}
